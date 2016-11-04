@@ -18,19 +18,19 @@ function preload() {
   spaceFont2 = loadFont("data/OCRAStd.otf");
   lightFont = loadFont("data/KozGoPr6N-ExtraLight.otf");
 
-  astro = loadImage("data/Astro.png");
-  alien = loadImage("data/Alieee.png");
+  astro = loadImage("data/AstroLOWRES.png");
+  alien = loadImage("data/AlieeeLOWRES.png");
 
 
-  alien2 = loadImage("data/Alieee2.png");
-  alien3 = loadImage("data/Alieee3.png");
-  earth = loadImage("data/BackgroundEarth.png");
-  moon = loadImage("data/BackgroundMoon.png");
-  mars = loadImage("data/BackgroundMars.png");
-  saturn = loadImage("data/BackgroundSaturn.png");
-  solarsys = loadImage("data/System.png");
-  rocket = loadImage("data/Rocket_Ship.png");
-  rocketlaunch = loadImage("data/Rocket_ShipLaunched.png");
+  alien2 = loadImage("data/Alieee2LOWRES.png");
+  alien3 = loadImage("data/Alieee3LOWRES.png");
+  earth = loadImage("data/Ex7BackgroundLOWRES.png");
+  moon = loadImage("data/Ex7BackgroundMoonLOWRES.png");
+  mars = loadImage("data/Ex7BackgroundMarsLOWRES.png");
+  saturn = loadImage("data/Ex7BackgroundSaturnLOWRES.png");
+  solarsys = loadImage("data/SystemLOWRES.png");
+  rocket = loadImage("data/Rocket_ShipLOWRES.png");
+  rocketlaunch = loadImage("data/Rocket_ShipLaunchedLOWRES.png");
 
 
 }
@@ -53,22 +53,9 @@ function setup() {
   text("Get it? cuz outer-space haha", width - 10, height - 50);
 
 
-
-
 }
 
 function draw() {
-
-  /*
-  switch (input) {
-    case 1:
-      mars();
-
-      break;
-    case 2:
-
-  }
-  */
 
   if (keyIsPressed) {
     earthScene();
@@ -103,14 +90,9 @@ function draw() {
       if(keyVal == 8){
       break;
       }
-
-  }
+      }
     }
-
   }
-
-
-
 }
 
 function keyTyped() {
